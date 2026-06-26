@@ -38,9 +38,9 @@ This production-ready, full-stack web application delivers an optimized, respons
 
 ## 🌍 Production Environment Deployment
 
-The application is deployed live in a production cloud environment. You can interface with the operational cloud build instantly via the remote server node:
+The application is deployed live in a production cloud environment. You can interface with the operational cloud build instantly via the remote server node by launching the link below in a new tab:
 
-👉 **[Launch Live Production Storefront](http://praveenstore.infinityfreeapp.com/index.php)**
+👉 <a href="http://praveenstore.infinityfreeapp.com/index.php" target="_blank" rel="noopener noreferrer"><b>Launch Live Production Storefront</b></a>
 
 ---
 
