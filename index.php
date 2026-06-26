@@ -1,4 +1,10 @@
 <?php
+// 1. Enable Error Reporting (Helps catch hidden server crashes)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// 2. Include database first so $conn is defined before using real_escape_string
 include 'db.php';
 
 // Handle Search Query Logic
@@ -128,7 +134,7 @@ $search = isset($_GET['search']) ? $conn->real_escape_string($_GET['search']) : 
     if (!$conn || $conn->connect_error) {
         echo "<div style='text-align:center; width:100%; color:#e74c3c;'>
                 <h3>Database Connection Failed</h3>
-                <p>Please ensure MySQL is started in XAMPP.</p>
+                <p>Please check your cloud database configuration settings inside db.php.</p>
               </div>";
     } else {
         // Updated Query to handle search filtering
