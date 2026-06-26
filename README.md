@@ -1,62 +1,42 @@
-\# Responsive E-Commerce Interface with State-Persistent Cart
+# 🚀 Responsive E-Commerce Interface with State-Persistent Cart
 
+## 📝 Description
+This project is a fully responsive, full-stack e-commerce storefront featuring a state-persistent shopping cart workflow. The architecture integrates server-side PHP data rendering with client-side persistence layers to ensure that added products remain securely stored in the user's cart queue across page refreshes, session changes, or browser restarts.
 
+---
 
-\## Description
+## 🛠️ Technologies Used
+* **Frontend:** HTML5, CSS3 (Modern Responsive Layouts, Flexbox, Glassmorphism UI components), JavaScript (ES6+)
+* **Backend Logic:** PHP (Object-Oriented MySQLi structural data binding)
+* **Database Layer:** MySQL Relational Database Schema
+* **Cloud Hosting Platform:** InfinityFree (Remote Apache & MySQL Production Servers)
+* **Local Development Environment:** XAMPP Server Stack (For offline staging)
 
-This project is a responsive e-commerce website with a state-persistent shopping cart. The cart data is stored using local storage so that items remain in the cart even after page refresh or browser restart.
+---
 
+## ✨ Core Features
+* **Adaptive Responsive Design:** Seamless interface layouts customized for mobile, tablet, and desktop viewing viewports.
+* **Secure Session Login System:** Validated customer access control portal pipelines.
+* **Dynamic Product Catalog:** Live structural database item grid rendering with flexible search filtering engines.
+* **State-Persistent Cart Matrix:** Hybrid data state architecture mapping local storage queues dynamically with transactional updates.
+* **Interactive Shopping Cart Hub:** Live interface management to add, track, alter, or remove product inventories in real-time.
+* **Transaction Checkout Pipeline:** Structured confirmation gateway staging order records gracefully for processing.
 
+---
 
-\## Technologies Used
+## 🌍 Live Production Deployment
 
-\- HTML
+The web application is deployed live and fully functional on cloud servers. You can access the public production storefront directly here:
 
-\- CSS
+👉 **[Live App Link](http://praveenstore.infinityfreeapp.com/index.php)**
 
-\- JavaScript
+---
 
-\- PHP
+## ⚙️ How to Configure and Run Locally (XAMPP Setup)
 
-\- MySQL
+If you wish to test, develop, or run this repository inside your own local offline environment, follow these execution steps:
 
-\- XAMPP
-
-
-
-\## Features
-
-\- Responsive Design
-
-\- Login System
-
-\- Product Listing
-
-\- Add to Cart
-
-\- Persistent Cart using Local Storage
-
-\- Cart Page
-
-\- Checkout Page
-
-
-
-\## How to Run the Project
-
-1\. Install XAMPP
-
-2\. Move project folder to htdocs
-
-3\. Start Apache and MySQL
-
-4\. Import database in phpMyAdmin
-
-5\. Open http://localhost/ecommerce
-
-
-
-\## Author
-
-Praveen Bellamkonda
-
+1. **Install Server Stack:** Download and install [XAMPP](https://www.apachefriends.org/) on your computer.
+2. **Deploy Source Files:** Clone or extract the complete `ecommerce` project root folder directly into your local deployment environment folder at:
+   ```text
+   C:\xampp\htdocs\ecommerce
